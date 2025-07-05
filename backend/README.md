@@ -46,9 +46,9 @@ A robust RESTful API backend for a cross-platform todo application built with No
 3. **Environment Configuration**
    Create a `.env` file in the root directory:
    ```env
-   DATABASE_URL="postgresql://username:password@localhost:5432/todo_db"
-   PORT=3001
-   NODE_ENV=development
+    DATABASE_URL="postgresql://<YOUR-DATABASE-USERNAME>:<YOUR-DATABASE-PASSWORD>@localhost:5432/<YOUR-DATABASE>"
+    PORT=3001
+    NODE_ENV=development
    ```
 
 4. **Database Setup**
